@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" trimDirectiveWhitespaces ="true" %>
+<%
+		String Id = request.getParameter("UserId");
+		String PassWord = request.getParameter("UserPwd");
+		
+	%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>memberCheck</title>
+</head>
+<body>
+	<h1>넘겨받은 결과</h1>
+	<div>
+		입력한 아이디는 <%=Id %>
+		입력한 비밀번호는 <%=PassWord %>
+	</div>		
+
+</body>
+</html>
